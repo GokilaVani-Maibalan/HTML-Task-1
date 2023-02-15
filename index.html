@@ -24,7 +24,7 @@
         }
         .con2{
             display:grid;
-            grid-template-columns: 30% 70%;
+            grid-template-columns: 30% 60%;
             background-color:lightgray;
             
         }
@@ -50,13 +50,13 @@
         }
 
         .search{
-            width: 300px;
+            width: 130px;
             border-radius: 10px;
             transition: 2s;
         }
 
         .search:hover{
-            width: 500px;
+            width: 190px;
             background:  rgba(67, 65, 65, 0.9);;
             border-radius: 10px;;
         }
@@ -76,14 +76,14 @@
             border: none;
             margin:3px;
             display:grid;
-            grid-template-columns: 30% 30% 30%;
+            grid-template-columns: 30% 30% 25%;
             column-gap:40px;
            
             
         }
 
         .one,.two,.three{
-            width: 250px;
+         
             height:90px;
             background-color: rgba(67, 65, 65, 0.9);
             border-radius: 10px;
@@ -93,7 +93,7 @@
         .one:hover,.two:hover,.three:hover{
             background-color:peachpuff;
             color:black;
-            width: 450px;
+            
             height:120px;
             rotate: 360deg;
         }
@@ -102,10 +102,10 @@
 <body>
     <div class="container parent">
         <div class="container-sm con1">Github</div>
-        <div class="container-xl con2">
+        <div class="container-xxl con2">
             <div class="container-md sub1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolores voluptatum fugit, amet minus distinctio voluptatem dolorum asperiores? Iusto porro dolorum fugit eligendi veniam quam totam rem tenetur, commodi esse!</div>
             <div class="container-xl sub2">
-                <div class="container-sm cs1">
+                <div class="container-xs cs1">
                     <form class="box" action="https://www.google.com" target="_blank">
                     <input type="text" class="search" placeholder="Search">
                 </form>
@@ -113,9 +113,9 @@
                 
                 <div class="container-lg cs2">
                     
-                    <div class="container-md one">Hi!!</div>
-                    <div class="container-md two">Welcome!!!</div>
-                    <div class="container-md three">Hello!!</div>
+                    <div class="container-sm one">Hi!!</div>
+                    <div class="container-sm two">Hello!!!</div>
+                    <div class="container-sm three">Hello!!</div>
                 </div>
                 <div class="container-sm cs3">content</div>
             </div>
